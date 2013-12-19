@@ -3,6 +3,12 @@ Fixes
 1. Fix the case, when wsdl operation does not contain output.
 2. Fix the case, when wsdl uri is incorrect (double error callback).
 
+How to temporary use instead of original node-soap (will ask the creator to apply my fixes later):
+
+```
+  npm install https://github.com/EugeneEmelyanov/node-soap/tarball/master
+```
+
 This module lets you connect to web services using SOAP.  It also provides a server that allows you to run your own SOAP services.
 
 Features:
