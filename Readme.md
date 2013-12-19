@@ -1,3 +1,8 @@
+Fixes
+
+1. Fix the case, when wsdl operation does not contain output.
+2. Fix the case, when wsdl uri is incorrect (double error callback).
+
 This module lets you connect to web services using SOAP.  It also provides a server that allows you to run your own SOAP services.
 
 Features:
